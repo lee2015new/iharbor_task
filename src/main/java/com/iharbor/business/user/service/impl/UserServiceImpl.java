@@ -24,5 +24,5 @@ public class UserServiceImpl implements UserService{
 	@Autowired
 	private RedisManager redis;
 	
-	
+
 }
