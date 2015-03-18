@@ -41,7 +41,7 @@
 	</listener>
 
 	<servlet>
-		<servlet-name>iharbor</servlet-name>
+		<servlet-name>iharbor_task</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 		<init-param>  
             <param-name>contextConfigLocation</param-name>  
@@ -51,7 +51,7 @@
 	</servlet>
 
 	<servlet-mapping>
-		<servlet-name>iharbor</servlet-name>
+		<servlet-name>iharbor_task</servlet-name>
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 	<!-- 解决HTTP PUT请求Spring无法获取请求参数的问题 -->
@@ -61,7 +61,7 @@
 	</filter>
 	<filter-mapping>
 		<filter-name>HiddenHttpMethodFilter</filter-name>
-		<servlet-name>iharbor</servlet-name>
+		<servlet-name>iharbor_task</servlet-name>
 	</filter-mapping>
 	<welcome-file-list>
 		<welcome-file>index.jsp</welcome-file>

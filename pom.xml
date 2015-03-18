@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>edu</groupId>
-	<artifactId>platform</artifactId>
+	<artifactId>iharbor_task</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1</version>
 	<name>platform Maven Webapp</name>
@@ -134,7 +134,13 @@
 			<groupId>cglib</groupId>
 			<artifactId>cglib</artifactId>
 			<version>2.2</version>
-		</dependency>		
+		</dependency>	
+		<dependency>
+			<groupId>aopalliance</groupId>
+			<artifactId>aopalliance</artifactId>
+			<version>1.0</version>
+		</dependency>
+					
 	</dependencies>
 
 	<build>
